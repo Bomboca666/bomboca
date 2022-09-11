@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>Bomboca</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+	</head>
+
+<body style="background-color:black;">
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">My Path
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="html/FirstSteps.html">First Steps</a>
+      <a href="html/ColdZone.html">Cold Zone</a>
+      <a href="html/BackAgain.html">Back Again</a>
+    </div>
+  </div>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+	<div class="header">
+  <!-- Slide Show -->
+<section>
+  <img class="mySlides" src="mySlides/weld.jpg" style="width:100%">
+  <img class="mySlides" src="mySlides/welding.jfif" style="width:100%">
+  <img class="mySlides" src="mySlides/html-example.jpg" style="width:100%">
+</section>
+
+</div>
+
+	<div class="navbar2">
+</div>
+
+<!-- The grid: three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#333;">First Steps</div>
+  <div class="column" onclick="openTab('b2');" style="background:#676765;">Cold Zone</div>
+  <div class="column" onclick="openTab('b3');" style="background:#333;">Back Again</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#333">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2010/2015</h2>
+  <p>My journey started in 2010, when I was 19 years old. I didn't have any experience working, but started working in a factory, first as an assembler, but in a matter of months I started welding in the MIG/TIG process. Most of my time spent in that plant was welding catalysts on the night shift.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#676765">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2015/2020</h2>
+  <p>I've moved to the cold part of my plant and needed to adapt to a completely different environment. Instead of manual welding and robots, I was in a part of the plant where the benders came in, mostly Crippa. Huge machines that bend and cut pipe. I took my first steps with some G-code and started working as a team leader. It was a big change and some of the best years in that plant, and I worked four years on the day shift in this timeline.</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#333">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2020/Present</h2>
+  <p>Back to welding I am a team leader on one of the plant's oldest projects, the first project I worked on twelve years ago. I learned some days ago, by myself, how to correct trajectories in the welding robots by trial and error, mostly on Motoman and Fanuc. And four weeks ago (today, as I write, September six), I took my first steps into the technical world of the Internet, thanks to my sister-in-law. We spend every Saturday teaching me new and exciting things that I hope I will put to good use in the future. Besides everything, I'm a father, a companion, a worker, and a curious person who is eager to learn.</p>
+</div>
+
+
+<div class="footer">
+  <h2 style="font-size: 14px;">By João Prazeres</h2>
+  <p style="font-size: 12px;"><b>I barely use Twitter<b></p>
+  <a href="https://twitter.com/bojardadomonte?t=SjHm1H5dvZdEvDtncLjkxQ&s=01>">
+  <img src="button/twitter.png" height="20px" width="20px">
+
+</div>
+
+<script type="text/javascript" src="js/javascript.js"></script>
+<!-- /scripts -->
+
+</body>
+</html>
