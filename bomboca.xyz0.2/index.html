@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<title>Bomboca</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+	</head>
+
+<body style="background-color:black;">
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">My Path
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="html/FirstSteps.html">First Steps</a>
+      <a href="html/ColdZone.html">Cold Zone</a>
+      <a href="html/BackAgain.html">Back Again</a>
+    </div>
+  </div>
+  <a href="html/Contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+	
+  <div class="header">
+
+      
+</div>
+
+    
+  <!-- NOVAS COLUNAS -->
+<div class="row2">
+  <div class="column2" style="height: 400px; color: #C1C0B5; font-size: 20px;">
+    <img class="icon" style="height: 150px; width: 150px;" src="icon/avatar.png">
+      <p style="font-size: 25px; color: #C1C0B5;">About me</p><p>Name: Joao Prazeres</p><p>Age:31</p><p>Birth:Portugal</p>
+      <p>Born and raised in Bragança, a small town with a beautiful countryside and one of Portugal's best-preserved castles.</p>
+      <p>I'm a curious person, a hard worker, but above that, a father and a partner.</p>
+      <p>Love gaming and hiking.</p>
+  
+  </div>
+
+  <div class="column3" style="color: #C1C0B5;">
+    <h1>Objectives</h1>
+    <p style="font-size: 20px; color: white;" class="gfg">I've started this website to see if it feels right to me to do this. The truth is that with the little time that I have, I see some evolution. I only started exploring tech a few weeks ago, with the aid of my sister-in-law, and to be honest, I'm enjoying this completely new world. Everything is new to me, but as a curious person, I'll manage to find a way. My sister-in-law said, "Look back a few weeks and try to imagine if you could do what you do now." <br>That phrase will be engraved in my mind from now on. <br>When I make some significant advance, I'll be updating this column with some info. From now on, I'm just happy with my little achievements.</p>
+  </div>
+  <div class="column2" style="height: 300px;border-style: none;">
+    <p style="font-size: 20px;">At the bottom, any curious visitor can find a summary of my twelve years as a worker in a plant, building catalysts, bending pipes, making exhaust systems, being a team leader, welding in MIG/TIG, and so on.
+    <br>
+    <br>If, by any chance, a visitor wants to ask me something, you can use the forms in the Contact link.
+    <br>
+    <br>Best regards. \m/</p>
+    </a>
+  </div>
+
+</div>
+
+
+
+<!-- The grid: three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#333;">First Steps</div>
+  <div class="column" onclick="openTab('b2');" style="background:#676765;">Cold Zone</div>
+  <div class="column" onclick="openTab('b3');" style="background:#A4A49F;">Back Again</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#333">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2010/2015</h2>
+  <p>My journey started in 2010, when I was 19 years old. I didn't have any experience working, but started working in a factory, first as an assembler, but in a matter of months I started welding in the MIG/TIG process. Most of my time spent in that plant was welding catalysts on the night shift.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#676765">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2015/2020</h2>
+  <p>I've moved to the cold part of my plant and needed to adapt to a completely different environment. Instead of manual welding and robots, I was in a part of the plant where the benders came in, mostly Crippa. Huge machines that bend and cut pipe. I took my first steps with some G-code and started working as a team leader. It was a big change and some of the best years in that plant, and I worked four years on the day shift in this timeline.</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#A4A49F">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>2020/Present</h2>
+  <p>Back to welding I am a team leader on one of the plant's oldest projects, the first project I worked on twelve years ago. I learned some days ago, by myself, how to correct trajectories in the welding robots by trial and error, mostly on Motoman and Fanuc. And four weeks ago (today, as I write, September six), I took my first steps into the technical world of the Internet, thanks to my sister-in-law. We spend every Saturday teaching me new and exciting things that I hope I will put to good use in the future. Besides everything, I'm a father, a companion, a worker, and a curious person who is eager to learn.</p>
+</div>
+
+
+<div class="footer">
+  <h3 style="font-size: 14px; color: #C1C0B5;">By João Prazeres</h3>
+  <p style="font-size: 12px; color: #C1C0B5;"><b>I barely use Twitter<b></p>
+  <a href="https://twitter.com/bojardadomonte?t=SjHm1H5dvZdEvDtncLjkxQ&s=01>">
+  <img src="button/twitter.png" height="20px" width="20px">
+
+</div>
+
+<script type="text/javascript" src="js/javascript.js"></script>
+<!-- /scripts -->
+
+</body>
+</html>

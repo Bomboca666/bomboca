@@ -1,0 +1,161 @@
+<style>
+
+body {
+  background-color: #DBF9FC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden; /*overflow e uma propriedade que determina como o conteudo se mostra caso se sobreponha a outro conteudo*/
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #676765; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+
+/* THIS IS THE END OF THE SCROLL BAR*/
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #C1C0B5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add an active class to highlight the current page Home button*/
+.active {
+  background-color: #676765;
+  color: white;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* THIS IS THE END OF TOPNAV */ 
+
+.header {
+  padding: px; /* some padding */
+  text-align: center; /* center the text */
+  background: black; /* green background */
+  color: white; /* white text color */
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #676765;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../background/windday.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1550px;
+}
+form{
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+form h3{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-family: fantasy Monospace;
+}
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: white;
+  font-size: 16;
+  border-radius: 30px
+
+}
+form button{
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18;
+  border: 0;
+  outline: none;
+  width: 150px;
+  margin: 10px auto 0;
+  border-radius: 30px;/*faz arredondar os cantos*/
+}
+
+
+.footer {
+  text-align: center; /* Center text*/
+  background: black; /* Grey background */
+  padding: 40px;
+  background-image: url(../background/lightpost.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 1900px;
+}
+
+
+</style>
